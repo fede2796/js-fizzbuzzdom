@@ -20,6 +20,7 @@
         number = 'FizzBuzz';
         colorname = 'fizzbuzz';
     }
+    //Assegno il colore e il nome alla box
     const newBox = `<div class="box ${colorname}"> ${number}</div>` ;
     ncontainer.innerHTML += newBox;
     console.log(i + ' ' + number);
